@@ -1,5 +1,5 @@
 import './globals.css'
-import Navbar from "./component/navbar/Navbar";
+import Navbar from "@/components/navbar/Navbar";
 import localFont from "next/font/local";
 
 export const metadata = {
