@@ -1,6 +1,6 @@
 import Accordion from "@/components/ui/Accordion";
 import Image from "next/image";
-import Link from "next/link"; // ✅ use Link instead of useRouter
+import Link from "next/link";
 
 type PageProps = { params: { id: string } };
 
