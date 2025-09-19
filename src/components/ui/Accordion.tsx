@@ -30,7 +30,7 @@ export function AccordionItem({
 
         
         <div className={`overflow-hidden transition-[max-height] duration-300 ease-out bg-white ${open ? "max-h-[1000px]" : "max-h-0"}`}>
-            <div className="px-4 py-3">
+            <div className="p-4">
                 {children}
             </div>
         </div>
